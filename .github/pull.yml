@@ -1,0 +1,6 @@
+version: "1"
+rules:
+  - base: master
+    upstream: sequelize:v4
+    autoMerge: false
+    autoMergeHardReset: false
